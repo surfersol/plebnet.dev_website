@@ -88,6 +88,8 @@ export const headerData = {
     {
       text: 'Store',
       href: getStorePermalink(),
+      target: "_blank",
+      rel:'noopener noreferrer',
     },
   ],
   actions: [
@@ -139,7 +141,7 @@ export const footerData = {
       title: 'About',
       links: [
         { text: 'Our Story', href: '/about' },
-        { text: 'Contact Us', href: '/contact' },
+        // { text: 'Contact Us', href: '/contact' },
         { text: 'Press Kit', href: 'https://github.com/plebnet-dev/presskit' },
         { text: 'Terms of Service', href: '/terms' },
         { text: 'Privacy', href: '/privacy' },
